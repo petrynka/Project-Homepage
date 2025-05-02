@@ -1,3 +1,94 @@
-body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* =============== HEADER ==================================== */
+
+header{
+    background-color: #007B9E;
+    clip-path: polygon(0 0, 100% 0, 100% 41%, 0 100%);
+    padding: 40px 0;
+    padding-bottom: 450px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    color: white;
+    transform: translateY(-450px);
+    display: flex;
+}
+
+.header_photo_inner{
+    width: 40%;
+    background-image: url('./img/photo1.jpg');
+    background-position: center 25%;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    box-shadow: 8px 15px 29px 0px rgba(0,0,0,0.71);
+}
+
+.head-name{
+    position: relative;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    padding: 0 18px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header-text{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.header_text_inner{
+    width: 100%;
+    background-color: white;
+    min-height: 330px;
+    color: black;
+    padding: 25px;
+    box-shadow: 8px 15px 29px 0px rgba(0,0,0,0.71);
+}
+
+.header_text_inner h2{
+    margin-bottom: 25px;
+}
+
+.header-icons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.icons-inner{
+    display: flex;
+    gap: 15px;
+}
+
+.icons-inner a{
+    text-decoration: none;
+    width: 26px;
+    height: 26px;
+    font-size: 26px;
+    transition: all 0.3s ease-out;
+}
+
+.icons-inner a:hover{
+    transform: translateY(-5px);
+}
+
+/* =============== MAIN ==================================== */
