@@ -42,7 +42,7 @@ header{
 
 .header_photo_inner{
     width: 40%;
-    background-image: url('./img/IMG_2098.JPG');
+    background-image: url('./img/IMG_2098.webp');
     background-position: center 25%;
     background-size: cover;
     min-height: 400px;
@@ -151,38 +151,38 @@ h3{
 }
 
 .resume_builder{
-    background-image: url('./img/resume_builder.png');
+    background-image: url('./img/resume_builder.webp');
     background-size: cover;
     background-position: left;
 }
 
 .todoApp{
-    background-image: url('./img/todo_app.png');
+    background-image: url('./img/todo_app.webp');
     background-size: cover;
     background-position: left;
 }
 
 .weather-app{
-    background-image: url('./img/weather-app.png');
+    background-image: url('./img/weather-app.webp');
     background-size: cover;
     background-position: center;
 }
 
 .battleship{
-    background-image: url('./img/BatallshipGame.png');
+    background-image: url('./img/BatallshipGame.webp');
     background-size: cover;
     background-position: center;
 }
 
 .pokemon{
-    background-image: url('./img/pokemonGame.png');
+    background-image: url('./img/pokemonGame.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .tic-tac-toe{
-    background-image: url('./img/TicTacToe.png');
+    background-image: url('./img/TicTacToe.webp');
     background-size: contain;
     background-position: center;
 }
